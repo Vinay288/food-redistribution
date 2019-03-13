@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1098.0" style="-fx-background-color: dodgerblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signuppd">
+    <children>
+        <Button layoutX="375.0" layoutY="322.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="91.0" style="-fx-background-color: PINK;" text="REGISTER" />
+        <AnchorPane layoutX="65.0" layoutY="124.0" prefHeight="433.0" prefWidth="997.0" style="-fx-background-color: #1CDAFF;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="65.0" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="124.0">
+            <children>
+                <Label layoutX="146.0" layoutY="20.0" prefHeight="31.0" prefWidth="98.0" text="       FULL NAME:" />
+                <Label layoutX="143.0" layoutY="267.0" prefHeight="31.0" prefWidth="98.0" text="       USER NAME:" />
+                <Label layoutX="146.0" layoutY="306.0" prefHeight="31.0" prefWidth="98.0" text="       PASSWORD:" />
+                <Label layoutX="133.0" layoutY="54.0" prefHeight="31.0" prefWidth="117.0" text="      PHONENUMBER:" />
+                <Label layoutX="146.0" layoutY="94.0" prefHeight="31.0" prefWidth="98.0" text="         EMAIL ID:" />
+                <TextField fx:id="textfield1" layoutX="256.0" layoutY="23.0" prefHeight="25.0" prefWidth="251.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="490.0" />
+                <TextField fx:id="textfield4" layoutX="257.0" layoutY="57.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="491.0" />
+                <TextField fx:id="textfield5" layoutX="257.0" layoutY="97.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="491.0" />
+                <TextField fx:id="textfield6" layoutX="256.0" layoutY="267.0" prefHeight="25.0" prefWidth="251.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="490.0" />
+                <PasswordField fx:id="textfield8" layoutX="256.0" layoutY="351.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="491.0" />
+                <Label layoutX="125.0" layoutY="159.0" prefHeight="31.0" prefWidth="133.0" text="  PERMANENT ADRESS" />
+                <TextArea fx:id="text21" layoutX="256.0" layoutY="136.0" prefHeight="76.0" prefWidth="251.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="490.0" />
+                <PasswordField fx:id="textfield7" layoutX="256.0" layoutY="309.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="491.0" />
+                <Label layoutX="118.0" layoutY="348.0" prefHeight="31.0" prefWidth="133.0" text="  CONFIRM PASSWORD:" />
+                <TextArea layoutX="716.0" layoutY="98.0" opacity="0.95" prefHeight="49.0" prefWidth="231.0" style="-fx-background-color: #1CDAFF;" text="&quot;If u can't feed a  hundred &#10;people,then feed just one&quot;." AnchorPane.rightAnchor="70.0">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </TextArea>
+                <ImageView fitHeight="200.0" fitWidth="250.0" layoutX="708.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="70.0">
+                    <image>
+                        <Image url="@th.jpg" />
+                    </image>
+                </ImageView>
+            <Label layoutX="146.0" layoutY="228.0" prefHeight="31.0" prefWidth="98.0" text="         PINCODE:" />
+            <TextField fx:id="textfield3" layoutX="256.0" layoutY="231.0" prefHeight="25.0" prefWidth="250.0" />
+            </children>
+        </AnchorPane>
+        <TextField layoutX="322.0" layoutY="25.0" style="-fx-alignment: CENTER; -fx-background-color: YELLOW;" text="ENTER THE DETAILS">
+            <font>
+                <Font name="Arial Bold" size="20.0" />
+            </font>
+      </TextField>
+      <Text fx:id="sss" fill="#c30d0d" layoutX="332.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: red;" underline="true" wrappingWidth="231.00000822544098">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Text>
+          <Button layoutX="262.0" layoutY="540.0" mnemonicParsing="false" onAction="#backk" prefHeight="37.0" prefWidth="80.0" style="-fx-background-color: PINK;" text="BACK" />
+          <Button layoutX="526.0" layoutY="540.0" mnemonicParsing="false" onAction="#register" prefHeight="37.0" prefWidth="80.0" style="-fx-background-color: PINK;" text="SIGNUP" />
+    </children>
+</AnchorPane>

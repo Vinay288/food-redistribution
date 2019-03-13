@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1098.0" style="-fx-background-color: #2A2AFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signupngoc">
+    <children>
+        <Button layoutX="375.0" layoutY="322.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="91.0" style="-fx-background-color: PINK;" text="REGISTER" />
+        <AnchorPane layoutX="51.0" layoutY="101.0" prefHeight="461.0" prefWidth="997.0" style="-fx-background-color: #1CDAFF;" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="101.0">
+            <children>
+                <Label layoutX="35.0" layoutY="20.0" prefHeight="31.0" prefWidth="98.0" text="NAME OF N.G.O" />
+                <Label layoutX="35.0" layoutY="267.0" prefHeight="31.0" prefWidth="98.0" text="USER NAME" />
+                <Label layoutX="35.0" layoutY="306.0" prefHeight="31.0" prefWidth="98.0" text="PASSWORD" />
+                <Label layoutX="35.0" layoutY="54.0" prefHeight="31.0" prefWidth="117.0" text="PHONENUMBER" />
+                <Label layoutX="35.0" layoutY="99.0" prefHeight="31.0" prefWidth="98.0" text="EMAIL ID" />
+                <TextField fx:id="Text1" layoutX="256.0" layoutY="23.0" prefHeight="25.0" prefWidth="318.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="423.0" />
+                <TextField fx:id="Text2" layoutX="256.0" layoutY="55.0" prefHeight="25.0" prefWidth="318.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="423.0" />
+                <TextField fx:id="Text3" layoutX="257.0" layoutY="97.0" prefHeight="25.0" prefWidth="318.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="423.0" />
+                <TextField fx:id="Text5" layoutX="256.0" layoutY="270.0" prefHeight="25.0" prefWidth="318.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="423.0" />
+                <PasswordField fx:id="Text7" layoutX="256.0" layoutY="351.0" prefHeight="25.0" prefWidth="318.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="423.0" />
+                <Label layoutX="35.0" layoutY="153.0" prefHeight="31.0" prefWidth="133.0" text="PERMANENT ADRESS" />
+                <TextArea fx:id="Tex4" layoutX="256.0" layoutY="136.0" prefHeight="86.0" prefWidth="318.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="423.0" />
+                <PasswordField fx:id="Text6" layoutX="256.0" layoutY="309.0" prefHeight="25.0" prefWidth="318.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="423.0" />
+                <Label layoutX="35.0" layoutY="348.0" prefHeight="31.0" prefWidth="133.0" text="CONFIRM PASSWORD" />
+                <TextArea layoutX="725.0" layoutY="67.0" opacity="0.95" prefHeight="86.0" prefWidth="200.0" style="-fx-background-color: LIGHT BLUE;" text="Welcome to&#10; DAATHA...." AnchorPane.rightAnchor="80.0">
+                    <font>
+                        <Font name="Noto Serif Bold" size="24.0" />
+                    </font>
+                    <effect>
+                        <Glow />
+                    </effect>
+                </TextArea>
+            <Label layoutX="35.0" layoutY="228.0" prefHeight="31.0" prefWidth="98.0" text="Pincode" />
+            <TextField fx:id="Tex8" layoutX="256.0" layoutY="231.0" prefHeight="25.0" prefWidth="318.0" />
+            <Text fx:id="sss" layoutX="256.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="336.13671875" />
+            <Text fx:id="sss" fill="#e40808" layoutX="35.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="168.13671875">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            </children>
+            <effect>
+                <Glow level="0.32" />
+            </effect>
+        </AnchorPane>
+        <TextField layoutX="241.0" layoutY="31.0" prefHeight="37.0" prefWidth="359.0" style="-fx-alignment: CENTER; -fx-background-color: YELLOW;" text="ENTER THE DETAILS YOUR N.G.O">
+            <font>
+                <Font name="Arial Bold" size="20.0" />
+            </font></TextField>
+          <Button layoutX="277.0" layoutY="547.0" mnemonicParsing="false" onAction="#back2" prefHeight="37.0" prefWidth="80.0" style="-fx-background-color: PINK;" text="BACK" />
+          <Button layoutX="572.0" layoutY="547.0" mnemonicParsing="false" onAction="#registerngo" prefHeight="37.0" prefWidth="80.0" style="-fx-background-color: PINK;" text="SIGNUP" />
+    </children>
+</AnchorPane>

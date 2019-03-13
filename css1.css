@@ -1,0 +1,11 @@
+.bodybg{
+    -fx-background-image: url('th.jpg');
+    -fx-background-size: 100% 100%;
+}
+#imgg{
+   -fx-background-image: url("123.jpg");
+   -fx-background-size:100% 100%;
+}
+#bo{
+
+}

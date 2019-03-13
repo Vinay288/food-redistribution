@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="1034.0" style="-fx-background-color: #9C2B27;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.userc">
+    <children>
+        <TextField fx:id="n3" layoutX="15.0" layoutY="232.0" promptText="3" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="n6" layoutX="14.0" layoutY="348.0" promptText="6" style="-fx-background-color: #E45652;" />
+        <Label layoutX="53.0" layoutY="114.0" prefHeight="18.0" prefWidth="72.0" text="NAMES" textFill="#e4eb0f" underline="true">
+            <font>
+                <Font name="Arial Bold" size="14.0" />
+            </font></Label>
+        <Label layoutX="365.0" layoutY="113.0" prefHeight="18.0" prefWidth="141.0" text="PREPARED TIME" textFill="#e4eb0f" underline="true">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label layoutX="716.0" layoutY="113.0" prefHeight="18.0" prefWidth="82.0" text=" QUANTITY" textFill="#e4eb0f" underline="true">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <TextField fx:id="n2" layoutX="14.0" layoutY="190.0" promptText="2" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="n4" layoutX="15.0" layoutY="271.0" promptText="4" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="n1" layoutX="14.0" layoutY="148.0" promptText="1" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="n5" layoutX="15.0" layoutY="309.0" promptText="5" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="n7" layoutX="15.0" layoutY="385.0" promptText="7" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="n8" layoutX="15.0" layoutY="426.0" promptText="8" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="q3" layoutX="695.0" layoutY="232.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="p6" layoutX="350.0" layoutY="348.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="q2" layoutX="695.0" layoutY="190.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="q4" layoutX="695.0" layoutY="271.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="q1" layoutX="695.0" layoutY="148.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="p5" layoutX="350.0" layoutY="309.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="q7" layoutX="695.0" layoutY="385.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="q8" layoutX="695.0" layoutY="426.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="p3" layoutX="350.0" layoutY="232.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="q6" layoutX="695.0" layoutY="348.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="p2" layoutX="350.0" layoutY="190.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="p4" layoutX="350.0" layoutY="271.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="p1" layoutX="350.0" layoutY="148.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="q5" layoutX="695.0" layoutY="309.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="p7" layoutX="350.0" layoutY="385.0" style="-fx-background-color: #E45652;" />
+        <TextField fx:id="p8" layoutX="350.0" layoutY="426.0" style="-fx-background-color: #E45652;" />
+        <Button layoutX="222.0" layoutY="506.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #FF2A7F;" text="BACK" underline="true">
+            <font>
+                <Font name="Comic Sans MS" size="12.0" />
+            </font></Button>
+        <Button fx:id="confo" layoutX="556.0" layoutY="506.0" mnemonicParsing="false" onAction="#userenter" prefHeight="35.0" prefWidth="91.0" style="-fx-background-color: FF2A7F;" text="CONFIRM" underline="true">
+            <font>
+                <Font name="Cambria Math" size="12.0" />
+            </font></Button>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="251.0" layoutY="44.0" prefHeight="35.0" prefWidth="185.0" text="WELCOME" textFill="#d6dfe1">
+            <font>
+                <Font name="Comic Sans MS" size="24.0" />
+            </font></Label>
+        <Text fx:id="p11" fill="#e10e9e" fontSmoothingType="LCD" layoutX="494.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME" underline="true" wrappingWidth="123.98307228088379">
+            <font>
+                <Font size="18.0" />
+            </font></Text>
+    </children>
+</AnchorPane>
